@@ -1,0 +1,6 @@
+project="prashanth-prod"
+region="us-east-1"
+domain_zone_id="ZXXXXXXXXXXXX"
+domain_name="example.com"
+# api_domain_name="xyz.execute-api.us-east-1.amazonaws.com"
+# api_shared_secret="rotate-me"

@@ -1,0 +1,1 @@
+resource "aws_route53_record" "this"{for_each={for r in var.records: r.name=>r} zone_id=var.zone_id name=each.value.name type=each.value.type alias{ name=each.value.alias.name hosted_zone_id=each.value.alias.hosted_zone_id evaluate_target_health=each.value.alias.evaluate_target_health }}

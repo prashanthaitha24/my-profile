@@ -1,0 +1,16 @@
+variable "project"{type=string}
+variable "region"{type=string}
+variable "enable_vpc"{type=bool,default=true}
+variable "enable_s3"{type=bool,default=true}
+variable "enable_cloudfront"{type=bool,default=true}
+variable "enable_route53"{type=bool,default=false}
+variable "enable_eks"{type=bool,default=true}
+variable "enable_alb"{type=bool,default=false}
+variable "vpc_cidr"{type=string,default="10.40.0.0/16"}
+variable "az_count"{type=number,default=2}
+variable "bucket_name"{type=string,default=null}
+variable "domain_zone_id"{type=string,default=null}
+variable "domain_name"{type=string,default=null}
+variable "api_domain_name"{type=string,default=null}
+variable "api_shared_secret"{type=string,default=null}
+variable "tags"{type=map(string),default={}}

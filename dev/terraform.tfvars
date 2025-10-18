@@ -1,0 +1,6 @@
+project="prashanth-dev"
+region="us-east-1"
+# domain_zone_id="ZXXXXXXXXXXXX"
+# domain_name="dev.example.com"
+# api_domain_name="abc.execute-api.us-east-1.amazonaws.com"
+# api_shared_secret="change-me"
